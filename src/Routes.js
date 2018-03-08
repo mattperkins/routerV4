@@ -1,15 +1,17 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
-import { HomePage, AboutPage } from './pages'
+import { HomePage, AboutPage, ContactPage } from './pages'
 
-export const Nav = () => <div style={{position:'fixed', backgroundColor:'#f33', margin:10}}>
-    <Link style={{marginRight: 10}} to='/'>Home</Link>
+export const Nav = () => <div>
+    <Link to='/'>Home</Link>
     <Link to='/about'>About</Link>
+    <Link to='/contact'>Contact</Link>
 </div>
 
 
 const Home = () => <div><HomePage /></div>
-const About = () => <div><Nav /><AboutPage /></div>
+const About = () => <div><AboutPage /></div>
+const Contact = () => <div><ContactPage /></div>
 
 
 export default () => <div>
@@ -17,6 +19,7 @@ export default () => <div>
     <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
     </Switch>
 </BrowserRouter>
 </div>
