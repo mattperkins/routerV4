@@ -5,8 +5,8 @@ import { Nav } from '../Routes'
 export const HomePage = () => (
 <Wrapper>
 <Nav />
-<h1>Home Page</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus aliquid illum a, eveniet repudiandae velit dolor quae autem iusto eius obcaecati. Velit iste, sed ipsam error fuga cupiditate quisquam.</p>
+    <h1>Home Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores possimus aliquid illum a, eveniet repudiandae velit dolor quae autem iusto eius obcaecati. Velit iste, sed ipsam error fuga cupiditate quisquam.</p>
 </Wrapper>
 )
 

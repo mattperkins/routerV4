@@ -1,12 +1,13 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Navo, Linka } from './styles'
 import { HomePage, AboutPage, ContactPage } from './pages'
 
-export const Nav = () => <div>
-    <Link to='/'>Home</Link>
-    <Link to='/about'>About</Link>
-    <Link to='/contact'>Contact</Link>
-</div>
+export const Nav = () => <Navo>
+    <Linka to='/'>Home</Linka>
+    <Linka to='/about'>About</Linka>
+    <Linka to='/contact'>Contact</Linka>
+</Navo>
 
 
 const Home = () => <div><HomePage /></div>
