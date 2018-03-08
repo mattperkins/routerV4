@@ -1,15 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
-import { HomePage, AboutPage } from './Pages'
-import { Wrapper } from './styles'
+import { HomePage, AboutPage } from './pages'
 
-const Nav = () => <Wrapper>
+export const Nav = () => <div style={{position:'fixed', backgroundColor:'#f33', margin:10}}>
     <Link style={{marginRight: 10}} to='/'>Home</Link>
     <Link to='/about'>About</Link>
-</Wrapper>
+</div>
 
 
-const Home = () => <div><Nav /><HomePage /></div>
+const Home = () => <div><HomePage /></div>
 const About = () => <div><Nav /><AboutPage /></div>
 
 
