@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
-
 import { HomePage, AboutPage } from './Pages'
+import { Wrapper } from './styles'
 
-const Nav = () => <div>
-    <Link to='/'>Home</Link>
+const Nav = () => <Wrapper>
+    <Link style={{marginRight: 10}} to='/'>Home</Link>
     <Link to='/about'>About</Link>
-</div>
+</Wrapper>
 
 
 const Home = () => <div><Nav /><HomePage /></div>
