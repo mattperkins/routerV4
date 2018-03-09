@@ -10,9 +10,9 @@ export const Nav = () => <Navo>
 </Navo>
 
 
-const Home = () => <div><HomePage /></div>
-const About = () => <div><AboutPage /></div>
-const Contact = () => <div><ContactPage /></div>
+const Home = () => <div><Nav /><HomePage /></div>
+const About = () => <div><Nav /><AboutPage /></div>
+const Contact = () => <div><Nav /><ContactPage /></div>
 
 
 export default () => <div>

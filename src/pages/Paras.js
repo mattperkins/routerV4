@@ -1,3 +1,7 @@
+// Paragraphs - dummy layout content
+// yarn add lodash
+// <Paras />
+
 import React from 'react'
 import { flatten, times } from 'lodash'
 
