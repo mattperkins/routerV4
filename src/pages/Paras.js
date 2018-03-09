@@ -18,7 +18,7 @@ export default class Paras extends React.Component{
         }))
 
         return(
-            <div style={{columns: 2}}>
+            <div style={{columns: 2, columnGap: '3rem'}}>
             { paragraphs.map(paragraph => paragraph) }
             </div>
         )

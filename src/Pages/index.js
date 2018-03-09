@@ -1,6 +1,5 @@
 import React from 'react'
 import { Wrapper } from '../styles'
-import { Nav } from '../Routes'
 import Paras from './Paras'
 
 export const HomePage = () => (

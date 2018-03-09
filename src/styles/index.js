@@ -10,4 +10,5 @@ export const Linka = styled(Link)`
 `
 export const Wrapper = styled.div`
 margin: 20px 10px;
+padding-top: 30px;
 `
