@@ -9,11 +9,9 @@ export const Nav = () => <Navo>
     <Linka to='/contact'>Contact</Linka>
 </Navo>
 
-
 const Home = () => <div><Nav /><HomePage /></div>
 const About = () => <div><Nav /><AboutPage /></div>
 const Contact = () => <div><Nav /><ContactPage /></div>
-
 
 export default () => <div>
 <BrowserRouter>
