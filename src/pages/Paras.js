@@ -24,4 +24,3 @@ export default class Paras extends React.Component{
         )
     }
 }
-
