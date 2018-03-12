@@ -1,3 +1,5 @@
+http://routerv4.surge.sh/
+
 # INSTALL 
 ## yarn 
 # RUN 
@@ -5,4 +7,4 @@
 # ENDPOINTS 
 ## localhost: 3000
 # DEPLOY 
-## npm build
+## npm run build
